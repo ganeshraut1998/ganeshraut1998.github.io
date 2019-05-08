@@ -198,9 +198,6 @@ a:hover, a:active, a:focus {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
 
 @keyframes spinner {
   to {transform: rotate(360deg);}
@@ -213,9 +210,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/g2.jpg') 50% 0 repeat-x fixed;
   background-size: cover;
-  background-position: center center;
+  background: url('../images/home-bg1.jpg') repeat-x fixed center center;
   display: -webkit-box;
   display: -webkit-flex;
    display: -ms-flexbox;
