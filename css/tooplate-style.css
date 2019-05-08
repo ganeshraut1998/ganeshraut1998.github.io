@@ -10,7 +10,7 @@ http://www.tooplate.com/view/2087-kalay
 
 body {
     background: #ffffff;
-    font-family: 'Poppin]s', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -213,7 +213,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/g2.jpg') 50% 0 repeat-x fixed;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -495,6 +495,3 @@ footer p {
     height: 125vh;
   }
 }
-
-
-
